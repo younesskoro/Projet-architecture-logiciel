@@ -1,14 +1,4 @@
-![icon_logo](https://user-images.githubusercontent.com/56977388/178157849-38d2f2c3-1c93-4dac-9577-57f3a752e2cd.png)
 
-
-
-A flight booking Django application written in Python, HTML, CSS & Javascript.
-This is the capstone project for CS50's Web Programming with Python and Javascript.
-
-#### Project Video: [Watch on Youtube](https://www.youtube.com/watch?v=3tD4OsuGmoo)
-
-
-<img alt="flight" src="https://user-images.githubusercontent.com/56977388/178156598-69491e88-bd9a-42dc-88f3-afeb02d7161e.png">
 
 
 ### Features
@@ -59,11 +49,10 @@ This is the capstone project for CS50's Web Programming with Python and Javascri
 ### Installation
 
 - Install Python3.9 from [here](https://www.python.org/downloads/) manually.
-- Install project dependencies by running `py -m pip install -r requirements.txt`.
+- Install project dependencies by running `python requirements.py`.
 - Run the commands `py manage.py makemigrations` and `py manage.py migrate` in the project directory to make and apply migrations.
 - Create superuser with `py manage.py createsuperuser`. This step is optional.
 - Run the command `py manage.py runserver` to run the web server.
 - Open web browser and goto `127.0.0.1:8000` url to start using the web application.
 
 
-Project video [https://youtu.be/3tD4OsuGmoo](https://youtu.be/3tD4OsuGmoo)
